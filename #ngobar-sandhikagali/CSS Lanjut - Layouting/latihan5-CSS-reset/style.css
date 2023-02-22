@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* syntax css */
+.navbar {
+  background-color: #202020;
+  display: block;
+  height: 80px;
+}
+.navbar li,
+a {
+  display: block;
+  float: right;
+  text-decoration: none;
+  margin-top: -10px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: white;
+}
+.navbar li,
+a:hover {
+  color: salmon;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.navbar h3 {
+  display: block;
+  padding-top: 20px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: salmon;
+  font-weight: bold;
+}
+
+.main {
+  height: 500px;
+  background-image: url("/images/gambar4.jpg");
+}
+
+.main h1 {
+  font-size: 50px;
+  color: salmon;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-top: 80px;
+  padding-left: 150px;
+}
+
+.main .satu {
+  display: block;
+  font-size: 40px;
+  color: salmon;
+  padding-left: 240px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.main .dua {
+  font-size: 40px;
+  color: white;
+  padding-left: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+
+.main .portfolio a {
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  float: left;
+  background-color: salmon;
+  margin: 40px 150px;
+  font-family: sans-serif;
+  font-weight: bold;
+  width: 200px;
+  height: 50px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.main .portfolio a:hover {
+  color: salmon;
+  background-color: black;
+  border: 4px solid white;
+  border-radius: 10px;
+}
+
+.main .tiga h1 {
+  display: block;
+  margin-top: -350px;
+  margin-left: 400px;
+  color: white;
+}
+.main .tiga h2 {
+  float: right;
+  color: white;
+  font-size: 50px;
+  margin-right: 200px;
+  margin-top: -100px;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main .tiga p {
+  display: block;
+  margin: auto;
+  color: white;
+  margin-top: 200px;
+  margin-left: 400px;
+  padding-left: 200px;
+  padding-right: 50px;
+  text-align: justify;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  text-indent: 100px;
+}
+.empat a {
+  display: block;
+  background-color: #00ffff;
+  margin-right: 400px;
+  margin-top: 50px;
+  width: 200px;
+  height: 30px;
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  float: right;
+  border: 3px solid white;
+  border-radius: 30px;
+}

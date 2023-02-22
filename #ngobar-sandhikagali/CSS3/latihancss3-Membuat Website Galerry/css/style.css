@@ -1,0 +1,129 @@
+body {
+  font-size: 18px/36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: salmon;
+  text-shadow: 2px 2px 3px black;
+  margin: 50px auto;
+}
+
+.container {
+  width: 1000px;
+ 
+  margin: 30px auto;
+  background-color: #eeeeee;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+.gallery {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid salmon;
+  float: left;
+  margin-right: 30px;
+  margin-left: 10px;
+  overflow: hidden;
+  
+}
+
+
+
+.clear {
+  clear: both;
+}
+
+/* overlay */
+
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 9999;
+  transition: 1s;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.overlay img {
+  max-height: 100%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+.overlay:target img {
+  animation: zoomDanFade 1s ;
+}
+
+
+.overlay .close {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -35px;
+  color: salmon;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: black;
+  padding: 10px;
+  line-height: 10px;
+  border: 3px solid salmon;
+  border-radius: 10px;
+  transition: 1s;
+  opacity: 0;
+}
+
+.overlay:target .close {
+  animation: slideDownFade 0.5s 0.5s forwards ;
+}
+.overlay .close:hover {
+  background-color: #eeeeee;
+  color: black;
+  border: 3px solid salmon;
+}
+
+/* animasi */
+@keyframes zoomDanFade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
+@keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    margin-top: -20px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+

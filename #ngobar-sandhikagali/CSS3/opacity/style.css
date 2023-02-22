@@ -1,0 +1,29 @@
+body{
+  background-image: url('/img/hero3.jpg');
+  background-size: cover;
+  height: 500px;
+}
+.satu {
+  width: 500px;
+  height: 300px;
+  margin: 100px auto;
+  position: relative;
+  background-color: rgba(0, 0,0,0.4);
+}
+.satu h1 {
+   padding: 50px;
+   color: rgba(0, 0,0,0.2);
+   font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.dua {
+  width: 300px;
+  height: 200px;
+  background-color: rgba(255, 0,0,0.4);
+  margin: auto;
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+  
+}

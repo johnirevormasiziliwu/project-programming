@@ -1,0 +1,20 @@
+div {
+  width: 80px;
+  height: 40px;
+  margin: 30px;
+}
+
+.satu {
+  background-color: salmon;
+}
+.dua {
+  background-color: gray;
+  position: relative;
+  top: 5px;
+
+}
+.tiga {
+  background-color: aqua;
+  top: -50px;
+  position: relative;
+}

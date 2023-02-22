@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  color: aqua;
+}
+
+ul li a {
+  color: goldenrod;
+}
+
+ol li a {
+  color: salmon;
+}
+
+.paragraf1 {
+  color: red;
+  font-family: sans-serif;
+  font-weight: bold;
+
+}
+#paragraf2 {
+  color: blue;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-decoration: line-through;
+  text-align: justify;
+  text-transform: capitalize;
+  text-indent: 20px;
+  
+}
